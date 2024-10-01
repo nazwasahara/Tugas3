@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sederhana</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container mb-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-family: Arial, Helvetica, sans-serif">
+        <img src="wiworld.png" alt="ww" width="75px">&nbsp;&nbsp;
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Hogwarts<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Houses</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Gryffindor</a>
+                    <a class="dropdown-item" href="#">Hufflepuff</a>
+                    <a class="dropdown-item" href="#">Ravenclaw</a>
+                    <a class="dropdown-item" href="#">Slytherin</a>
+                <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Sorting Now</a>
+                </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Sorting</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled">Back to Home</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log In</button>&nbsp;&nbsp;
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Sign Up</button>
+        </form>
+        </div>
+    </nav>
+    </div>
+
+    <section>
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col align-self-center">
+                <h1 style="font-family: 'Alex Brush'; font-size: 60px;"><b>Welcome, Potterhead!</b></h1>
+                <p class="mt-3 mb-4" style="font-family: 'Poppins'; font-size: 18px;">
+                  Hogwarts was founded over a thousand years ago by four powerful wizards: Godric Gryffindor, Salazar Slytherin, 
+                  Rowena Ravenclaw and Helga Hufflepuff. They chose to split the students into four 'houses', each bearing their 
+                  surnames and featuring young wizards and witches who displayed abilities and personalities they wanted to nurture. <br><br>
+
+                  To do this, Godric Gryffindor used his magical hat - henceforward known as the Sorting Hat - to decide which children 
+                  should go into which house, and so it has been ever since with a yearly Sorting Ceremony that places each new pupil into 
+                  their own new home. 
+                </p>
+                <a class="btn btn-primary" href="#" role="button">Read More</a>
+            </div>
+            <div class="col d-none d-lg-block d-xl-block">
+                <img src="hogwarts.jpeg" alt="hog" width="550px">
+            </div>
+        </div>
+    </div>
+        
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col align-self-center" style="text-align: center;">
+              <h1 style="font-family: 'Alex Brush'; font-size: 60px;"><b>What's Your Hogwarts House?</b></h1>
+              <p class="mt-3 mb-4" style="font-family: 'Poppins'; font-size: 20px;">
+                Are you Gryffindor? Are you Hufflepuff? Are you Ravenclaw? Are you Slytherin?
+              </p>
+              <a class="btn btn-primary" href="#" role="button">Get Sorted Now</a>
+          </div>
+        </div>
+    </div>
+    </section>
+
+    <section>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-4" style="font-family: 'EB+Garamond'; font-size: 20px;">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="gryffindor.png" class="card-img-top" alt="gryff">
+            <div class="card-body">
+              <h5 class="card-title"><b>Gryffindor</b></h5>
+              <p class="card-text">You might belong in Gryffindor,
+                where dwell the brave at heart,
+                their daring, nerve and chivalry
+                set Gryffindors apart.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col mb-4">
+          <div class="card">
+            <img src="hufflepuff.png" class="card-img-top" alt="huffle">
+            <div class="card-body">
+              <h5 class="card-title"><b>Hufflepuff</b></h5>
+              <p class="card-text">You might belong in Hufflepuff,
+                where they are just and loyal,
+                those patient Hufflepuffs are true
+                and unafraid of toil.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="ravenclaw.png" class="card-img-top" alt="raven">
+            <div class="card-body">
+              <h5 class="card-title"><b>Ravenclaw</b></h5>
+              <p class="card-text">Or yet in wise old Ravenclaw,
+                if you've a ready mind,
+                where those of wit and learning
+                will always find their kind.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="slytherin.png" class="card-img-top" alt="sly">
+            <div class="card-body">
+              <h5 class="card-title"><b>Slytherin</b></h5>
+              <p class="card-text">Or perhaps in Slytherin,
+                you'll make your real friends,
+                those cunning folk use any means
+                to achieve their ends.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="bootstrap.js"></script>
+</body>
+</html>
